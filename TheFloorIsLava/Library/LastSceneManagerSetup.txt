@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/thomas_scene.unity
+- path: Assets/Scenes/portal_particle_system.unity
   isLoaded: 1
   isActive: 1
