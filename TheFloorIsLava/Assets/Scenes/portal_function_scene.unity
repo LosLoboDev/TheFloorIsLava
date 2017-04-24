@@ -105,15 +105,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.9
       objectReference: {fileID: 0}
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.7
       objectReference: {fileID: 0}
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.3
       objectReference: {fileID: 0}
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalRotation.x
@@ -172,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 955609627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 7.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1670671067}
@@ -356,11 +356,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 4407968436743786, guid: 3ed41b4554fb2466ab60095f58cd90d0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -457,6 +457,18 @@ Prefab:
     - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_IsWalking
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_WalkSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+      propertyPath: m_RunSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}

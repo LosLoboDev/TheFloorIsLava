@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/portal_particle_system.unity
+- path: Assets/Scenes/lava_scene.unity
   isLoaded: 1
   isActive: 1

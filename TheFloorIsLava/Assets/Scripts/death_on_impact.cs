@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class death_on_impact : MonoBehaviour {
+public class death_on_impact : MonoBehaviour
+{
+    public Vector3 newPosition = new Vector3(0, 0, 0);
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void OnCollisionStay(Collision collisionInfo)
+    {
+        Debug.Log(collisionInfo.gameObject.name);
+        if (collisionInfo.gameObject.name == "FPSController")
+        {
+            collisionInfo.gameObject.transform.position = newPosition;
+            Debug.Log("You died");
+        }
+    }
 }
