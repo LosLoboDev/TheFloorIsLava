@@ -1,20 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/final_level.unity
-=======
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 - path: Assets/Scenes/lighting_scene.unity
-=======
-- path: Assets/Scenes/wind_scene.unity
->>>>>>> origin/master
-=======
-- path: Assets/Scenes/lava_scene.unity
->>>>>>> Stashed changes
->>>>>>> e5c1cbfd16c34571fb6f2b75319c4befe94769a3
-=======
-- path: Assets/Scenes/lava_scene.unity
->>>>>>> refs/remotes/origin/master
   isLoaded: 1
   isActive: 1
