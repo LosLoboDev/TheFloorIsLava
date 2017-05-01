@@ -1,8 +1,12 @@
 sceneSetups:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 - path: Assets/Scenes/lighting_scene.unity
 =======
 - path: Assets/Scenes/wind_scene.unity
 >>>>>>> origin/master
+=======
+- path: Assets/Scenes/lava_scene.unity
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
