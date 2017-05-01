@@ -1,2 +1,7 @@
-Base path: C:/Program Files/Unity/Editor/Data
+Base path: C:/Program Files (x86)/Unity/Editor/Data
 Cmd: getPlatforms
+<<<<<<< HEAD
+=======
+Cmd: preprocess
+  insize=4047 outsize=1009 ok=1
+>>>>>>> refs/remotes/origin/master
