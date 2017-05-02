@@ -147,7 +147,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7c471337ec1659946ab9cc546d0dfb3c, type: 2}
+  - {fileID: 2100000, guid: f9b683fdb701ba6428918cfb641ff1ad, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -227,7 +227,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1390953804050502}
   serializedVersion: 5
   lengthInSec: 5
-  simulationSpeed: 4
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
@@ -2864,7 +2864,7 @@ ParticleSystem:
   m_GameObject: {fileID: 1935496296050020}
   serializedVersion: 5
   lengthInSec: 5
-  simulationSpeed: 4
+  speed: 1
   looping: 1
   prewarm: 0
   playOnAwake: 1
