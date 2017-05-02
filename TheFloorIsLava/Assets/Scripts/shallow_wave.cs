@@ -9,7 +9,7 @@ public class shallow_wave : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		size = 128;
+		size = 120;
 	
 		//Resize the mesh into a size*size grid
 		Mesh mesh = GetComponent<MeshFilter> ().mesh;
