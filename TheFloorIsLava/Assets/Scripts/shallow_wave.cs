@@ -5,11 +5,12 @@ public class shallow_wave : MonoBehaviour {
 	int size;
 
     float[,] old_h, h, new_h;
+    bool slower_wave = true;
     //Renderer renderer;
 
     // Use this for initialization
     void Start () {
-		size = 128;
+		size = 120;
 	
 		//Resize the mesh into a size*size grid
 		Mesh mesh = GetComponent<MeshFilter> ().mesh;
@@ -100,12 +101,19 @@ public class shallow_wave : MonoBehaviour {
         //if (Input.GetKeyDown(KeyCode.R))
         //for (int i=0; i<)
         //{
+        if (slower_wave)
+        {
             float m = Random.Range(0.03f, 0.05f);
             int i_rand = Random.Range(0, size - 1);
             int j_rand = Random.Range(0, size - 1);
 
             h[i_rand, j_rand] += m;
-        //}
+            //}
+            slower_wave = false;
+        } else
+        {
+            slower_wave = true;
+        }
 
 
         //Step 3: Run Shallow Wave (8 times)
